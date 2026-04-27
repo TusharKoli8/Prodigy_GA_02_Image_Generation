@@ -1,2 +1,29 @@
-# Prodigy_GA_02_Image_Generation
-End to end image generation project using Stable Diffusion in Python (VS Code). Generate images from text prompts, run locally on CPU or GPU, and learn how to use pre‑trained diffusion models for generative AI.
+# Image Generation with Stable Diffusion
+
+Simple Python script that generates images from text prompts using **Stable Diffusion** (`diffusers` + PyTorch) in VS Code.
+
+## Requirements
+
+- Python 3.8+
+- VS Code Python extension
+- (Optional) NVIDIA GPU with CUDA
+
+Install dependencies:
+
+--bash
+pip install torch diffusers transformers accelerate torchvision
+
+## Usage
+
+1. Activate your venv :
+
+   --bash
+   venv\Scripts\activate
+
+   
+3. Run:
+
+   --bash
+   python stable_diffusion_image.py
+   
+An image will be saved as `generated_image_sd_gpu.png` .
